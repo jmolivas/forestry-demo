@@ -7,6 +7,9 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: all
+- type: jekyll-posts
+  label: Posts
+  create: all
 - type: directory
   path: _projects
   label: Projects
@@ -17,9 +20,6 @@ sections:
   label: People
   create: all
   match: "**/*"
-- type: jekyll-posts
-  label: Posts
-  create: all
 - type: directory
   path: _data
   label: Data
