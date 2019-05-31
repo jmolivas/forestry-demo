@@ -31,8 +31,10 @@ fields:
   config:
     use_select: true
     source:
-      type: pages
-      section: posts
+      type: documents
+      section: projects
+      path: categories
+      file: _projects/epilepsy-monitoring.md
 - name: layout
   label: Layout
   type: text
@@ -41,6 +43,6 @@ fields:
 pages:
 - _posts/2017-02-12-modern.md
 - _posts/2017-08-22-research.md
-- _posts/2017-08-01-welcome.md
-- _posts/example-draft.md
 - _posts/2017-09-25-introduction.md
+- _posts/example-draft.md
+- _posts/2017-08-01-welcome.md
