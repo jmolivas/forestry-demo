@@ -31,8 +31,8 @@ fields:
   config:
     use_select: true
     source:
-      type: documents
-      section: projects
+      type: pages
+      section: jekyll-posts
       path: categories
       file: _projects/epilepsy-monitoring.md
 - name: layout
